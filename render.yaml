@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: silurian-sim
+    env: docker
+    plan: free
+    buildCommand: |
+      php -v
+    startCommand: |
+      php -S 0.0.0.0:10000 -t public
+    envVars:
+      - key: DB_DRIVER
+        value: sqlite
+    disk:
+      name: data
+      mountPath: /opt/render/project/src/data
+      sizeGB: 1

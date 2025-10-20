@@ -1,0 +1,1 @@
+A small PHP site that lets users **save** and **load** simulation state so they can continue exploring later. Frontend uses Chart.js; backend is pure PHP with PDO. Deployable to Render with a persistent disk (SQLite) or PostgreSQL.

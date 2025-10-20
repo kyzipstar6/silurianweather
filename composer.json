@@ -1,0 +1,8 @@
+
+{
+  "name": "silurian/sim",
+  "type": "project",
+  "require": {
+    "ext-pdo": "*"
+  }
+}
