@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: silurian-sim
+    name: silurianweather
     env: docker
     plan: free
     buildCommand: |
