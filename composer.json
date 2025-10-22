@@ -1,6 +1,6 @@
 
 {
-  "name": "silurian/sim",
+  "name": "silurianweather/sim",
   "type": "project",
   "require": {
     "ext-pdo": "*"
