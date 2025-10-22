@@ -1,4 +1,4 @@
-```php
+
 <?php
 // api/delete.php – delete a save slot
 header('Content-Type: application/json');
