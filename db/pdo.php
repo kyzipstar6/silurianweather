@@ -1,4 +1,4 @@
-```php
+
 <?php
 // db/pdo.php
 // Lightweight PDO bootstrap for SQLite (default) or PostgreSQL (Render ready).
