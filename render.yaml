@@ -3,7 +3,6 @@ services:
     name: silurianweather
     runtime: php        
     plan: free
-    buildCommand: ""
     startCommand: php -S 0.0.0.0:10000 -t public
     envVars:
       - key: DB_DRIVER
