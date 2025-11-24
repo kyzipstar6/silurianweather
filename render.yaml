@@ -1,12 +1,17 @@
 services:
   - type: web
     name: silurianweather
-    runtime: php
+    runtime: docker
     plan: free
-    startCommand: php -S 0.0.0.0:$PORT -t public
+
+    # These two tell Render how to build your image
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+
     envVars:
       - key: DB_DRIVER
         value: sqlite
+
     disk:
       name: data
       mountPath: /opt/render/project/src/data
