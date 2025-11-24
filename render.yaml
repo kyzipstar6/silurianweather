@@ -1,7 +1,7 @@
 services:
   - type: web
     name: silurianweather
-    runtime: php        
+    runtime: php
     plan: free
     startCommand: php -S 0.0.0.0:$PORT -t public public/index.php
     envVars:
