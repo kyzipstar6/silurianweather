@@ -3,7 +3,7 @@ services:
     name: silurianweather
     runtime: php        
     plan: free
-    startCommand: php -S 0.0.0.0:$PORT -t public
+    startCommand: php -S 0.0.0.0:$PORT -t "public/index.php"
     envVars:
       - key: DB_DRIVER
         value: sqlite
