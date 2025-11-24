@@ -10,4 +10,4 @@ COPY . .
 
 # Run the built-in PHP server
 # Render sets $PORT, but locally we default to 10000
-CMD ["sh", "-c"]
+CMD ["sh", "-c", "npm install php", "php -S 0.0.0.0:${PORT:-10000} -t public"]
