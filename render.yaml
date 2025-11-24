@@ -5,7 +5,7 @@ services:
     plan: free
 
     # These two tell Render how to build your image
-    dockerfilePath: ./Dockerfile
+    dockerfilePath: Dockerfile
     dockerContext: .
 
     envVars:
